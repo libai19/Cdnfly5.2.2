@@ -87,7 +87,7 @@ curl -fsSL https://github.com/libai19/Cdnfly5.2.2/blob/main/master.sh -o master.
 目前发现登录安全漏洞，需要及时按照如下方法来临时修复。找一个只有你知道的域名,这个域名用于管理员登录。<br />
 路径为:系统管理--->系统设置--->用户相关，限制管理员只能从此域名登录</p>
 
-### 其他操作：<br />
+### 节点迁移：<br />
 节点迁移至新主控 需要将旧节点的旧主控IP替换为新主控的IP<br />
 #依次在ssh登录每个节点并执行下面命令即可<br />
 #将 your_new_ip 替换为你自己的新主控IP</p>
@@ -96,7 +96,7 @@ curl -fsSL https://github.com/libai19/Cdnfly5.2.2/blob/main/master.sh -o master.
 wget -qO change_ip.sh https://github.com/SidneySenn/cdnfly2025/raw/refs/heads/main/change_ip.sh && chmod +x change_ip.sh && bash change_ip.sh your_new_ip
 ```
 
-<p>或选择手动操作<br />
+## 手动操作方案
 
 ```bash
 new_master_ip="这里替换为主控IP"
@@ -110,7 +110,8 @@ supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart agent
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart task
 ```
 
-<p>重启进程<br />
+## 重启进程
+
 <p>主控重启<br />
 
 ```bash
