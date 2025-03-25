@@ -71,7 +71,7 @@ reboot
 ### 安装cdnfly控制面板<br />
 
 ```bash
-curl -fsSL [https://github.com/xcazt/cdnfly522/raw/refs/heads/main/master.sh](https://github.com/libai19/Cdnfly5.2.2/blob/main/master.sh) -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es
+curl -fsSL https://github.com/libai19/Cdnfly5.2.2/blob/main/master.sh -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es
 ```
 
 <p>主控和被控均不能在 已安装nginx的情况下 执行安装命令，必须确保80 443端口未被占用!!!<br />
