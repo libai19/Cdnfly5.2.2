@@ -53,7 +53,7 @@ CentOS7更换镜像源<br />
 ```bash
 bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)
 ```
-## DD镜像Ubnutu16.04
+## 节点机器DD镜像Ubnutu16.04
 
 ```bash
 curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh 
@@ -67,6 +67,7 @@ bash reinstall.sh ubuntu 16.04
 reboot
 ```
 <p>然后等个十几分钟装好后,账号：root,密码：123@@@</p>
+
 ### 安装cdnfly控制面板<br />
 
 ```bash
@@ -82,7 +83,8 @@ curl -fsSL https://github.com/xcazt/cdnfly522/raw/refs/heads/main/master.sh -o m
 初始化管理员密码：cdnfly</p>
 目前发现登录安全漏洞，需要及时按照如下方法来临时修复。找一个只有你知道的域名,这个域名用于管理员登录。<br />
 路径为:系统管理--->系统设置--->用户相关，限制管理员只能从此域名登录</p>
-<p>其他操作<br />
+
+### 其他操作：<br />
 节点迁移至新主控 需要将旧节点的旧主控IP替换为新主控的IP<br />
 #依次在ssh登录每个节点并执行下面命令即可<br />
 #将 your_new_ip 替换为你自己的新主控IP</p>
@@ -148,4 +150,9 @@ curl http://us.centos.bz/cdnfly/restore_master.sh -o restore_master.sh;
 chmod +x restore_master.sh;
 ./restore_master.sh;
 ```
+
+<p>Cdnfly监控设置<br />
+尊敬的cdnfly用户:<br />
+为防止重启节点，Nginx服务启动不起来，可以在节点Tcp监控设置里面把主IP的监控端口设置为5000<br />
+节点管理-点击tcp-更多HTTP设置-端口：5000
 
