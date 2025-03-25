@@ -49,8 +49,8 @@ cdnfly5.2.2开心版最新搭建教程
 请支持正版 本站仅用于学习研究 不可用于商用以及违法用途<br />
 现在只需要运行脚本就可以安装!!!<br />
 可以直接输入命令进行安装<br />
-CentOS7更换镜像源<br />
 
+### CentOS7更换镜像源<br />
 ### 一键换源：<br />
 
 ```bash
@@ -154,7 +154,7 @@ chmod +x restore_master.sh;
 ./restore_master.sh;
 ```
 
-<p>Cdnfly监控设置<br />
+## Cdnfly监控设置<br />
 尊敬的cdnfly用户:<br />
 为防止重启节点，Nginx服务启动不起来，可以在节点Tcp监控设置里面把主IP的监控端口设置为5000<br />
 节点管理-点击tcp-更多HTTP设置-端口：5000
