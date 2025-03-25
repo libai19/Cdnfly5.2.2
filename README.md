@@ -43,7 +43,8 @@ cdnfly5.2.2开心版最新搭建教程
 ## 简易安装教程
 主控版本：5.2.2<br />
 被控版本：5.2.2<br />
-![image](https://github.com/user-attachments/assets/31f78ed1-ae55-4438-9ab4-8a34b45b71ba)
+![image](https://github.com/user-attachments/assets/25d37ca1-a30c-4797-a277-9f996fe8f3c0)
+
 
 请支持正版 本站仅用于学习研究 不可用于商用以及违法用途<br />
 现在只需要运行脚本就可以安装!!!<br />
