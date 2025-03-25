@@ -42,7 +42,7 @@ cdnfly5.2.2开心版最新搭建教程
 2025.1.19 更新版本号为5.2.2
 ## 简易安装教程
 主控版本：5.2.2<br />
-被控版本：5.2.2<br />
+被控版本：5.1.9<br />
 ![image](https://github.com/user-attachments/assets/25d37ca1-a30c-4797-a277-9f996fe8f3c0)
 
 
